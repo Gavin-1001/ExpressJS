@@ -1,0 +1,29 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "start:dev":"nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gavin-1001/ExpressJS.git"
+  },
+  "keywords": [
+    "expressjs",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Gavin Shelley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gavin-1001/ExpressJS/issues"
+  },
+  "homepage": "https://github.com/Gavin-1001/ExpressJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
